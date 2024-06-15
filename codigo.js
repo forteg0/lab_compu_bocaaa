@@ -1,16 +1,17 @@
 function validar() {
-  var usuario = document.getElementById("nombre").value;
+  var num_socio = document.getElementById("num_socio").value;
   var clave = document.getElementById("clave").value;
 
-  if (usuario == "eduardo" && clave == "123456") {
+  if (num_socio == "2434446"  && clave == "clave" || num_socio=="2409588"&& clave == "clave") {
     window.location.href = "./index3.html";
+    return num_socio
   } else {
-    alert("USUARIO Y CLAVE INCORRECTAS...");
+    alert("NUMERO Y CLAVE INCORRECTAS...");
   }
 }
 
 function limpiar() {
-  document.getElementById("nombre").value = "";
+  document.getElementById("num_socio").value = "";
   document.getElementById("clave").value = "";
 }
 
