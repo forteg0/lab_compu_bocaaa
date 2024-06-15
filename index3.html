@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Auto</title>
+    <script src="./codigo.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div2" style="margin-left: 200px">
+      <h1>Afiliacion cliente</h1>
+
+      <form>
+        <p>
+          Nombre
+          <input
+            type="text0"
+            name="nombre"
+            id="nombre"
+            placeholder="indique su nombre"
+          />
+        </p>
+        <p>
+          Apellido
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="indique su apellido"
+          />
+        </p>
+        <p>
+          DNI
+          <input
+            type="number"
+            name="dni"
+            id="dni"
+            placeholder="indica tu DNI"
+          />
+        </p>
+        <p>
+          EDAD
+          <input
+            type="number"
+            name="edad"
+            id="edad"
+            placeholder="indica su edad"
+          />
+        </p>
+        <p>
+          Sexo: Masculino
+          <input type="radio" name="sexo" value="masculino" /> Femenino
+          <input type="radio" name="sexo" value="femenino" />
+        </p>
+      </form>
+
+      <button onclick="afiliar()">AFILIAR</button>
+      <p id="resultado"></p>
+    </div>
+
+    <div class="div2">
+      <h1 class="h1e">Precios de Auto</h1>
+
+      <form>
+        <p>
+          MARCA DE AUTO :
+          <select name="carrera" id="marca">
+            <option value="1">FIAT</option>
+            <option value="2">RENAULT</option>
+            <option value="3">AUDI</option>
+          </select>
+        </p>
+
+        <p>
+          MODELO DE AUTO :
+          <select name="modelo" id="modelo">
+            <option value="1">Sedan</option>
+            <option value="2">Camioneta</option>
+            <option value="3">Deportivo</option>
+          </select>
+        </p>
+
+        <p>
+          <strong>FECHA DE ENTREGA</strong>
+          <input type="date" name="fecha" value="2008-01-25" />
+        </p>
+
+        <p>
+          N1
+          <input type="number" name="n1" id="n1" placeholder="indica su edad" />
+        </p>
+
+        <p>
+          N2
+          <input type="number" name="n2" id="n2" placeholder="indica su edad" />
+        </p>
+
+        <p>
+          OPERACION :
+          <select name="operar" id="opera">
+            <option value="1">Suma</option>
+            <option value="2">Resta</option>
+            <option value="3">Multiplica</option>
+          </select>
+        </p>
+      </form>
+
+      <button onclick="precio()">MOSTRAR PRECIO</button>
+      <button onclick="calcular()">CALCULAR</button>
+
+      <p id="resultado2"></p>
+    </div>
+  </body>
+</html>

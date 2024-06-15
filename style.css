@@ -1,0 +1,89 @@
+h1 {
+  color: red;
+  text-shadow: 2px 3px 3px white;
+}
+
+
+body{
+
+
+background-color: black;
+
+
+}
+
+#lista {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  list-style-type: none;
+
+  /*gdshfsgfsdsdjhg*/
+}
+
+.formulario1 {
+  text-align: center;
+  background-color: blue;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo2 {
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+.h1e{
+
+color:aqua;
+
+}
+
+
+
+
+.div1{
+background-image: url(/imagenes/ventas-febrero-2023.jpg);
+width: 100%;
+height: 600px;
+text-align: center;
+font-size: 30px;
+color:white;
+padding-top: 150px;
+background-repeat: no-repeat;
+background-size: cover;
+text-shadow: 2px 2px 5px black;
+
+
+
+
+}
+
+.div2{
+
+border: solid black;
+display: inline-table;
+color:white;
+width: 450px;
+height: 600px;
+text-align: center;
+background-image: url(/imagenes/inter.jpg);
+font-size: 25px;
+text-shadow: 2px 2px 5px black;
+background-size: cover;
+
+
+
+
+
+
+}
+
+#n1,#n2{
+
+width: 50px;
+
+
+}
