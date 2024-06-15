@@ -95,7 +95,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 3px;
-  background-image: url('/Proyecto-final-boca/lab_compu_bocaaa-main/imagenes/Boca_Juniors_logo18.svg.png');
+  background-image: url('/imagenes/escudo_bokita.png');
   background-repeat: repeat; /* Repetir la imagen en mosaico */
   background-size: 100px 110px; /* Tamaño reducido de la imagen de fondo */
 }
@@ -194,7 +194,7 @@ input[type="radio"] {
 }
 
 .formularioboca {
-  background-image: url('/Proyecto-final-boca/lab_compu_bocaaa-main/imagenes/Boca_Juniors_logo18.svg.png');
+  background-image: url('/imagenes/escudo_bokita.png');
   background-repeat: repeat; /* Repetir la imagen en mosaico */
   background-size: 150px 150px; /* Ajustar el tamaño de la imagen de fondo */
 }
