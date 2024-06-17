@@ -6,58 +6,35 @@
     <title>Comprar Entradas Boca Juniors</title>
     <script src="./codigo.js"></script>
     <link rel="stylesheet" href="style.css" />
+  
 </head>
-<body id="formularioboca">
-    <div class="container">
-        <h1>ALOALO</h1>
-        <img id="logo" src="/Proyecto-final-boca/lab_compu_bocaaa-main/imagenes/Boca_Juniors_logo18.svg.png" alt="Boca Juniors">
-
-        <form>
-            <p id="name_socio" ></p>
-
-            <p>N° de socio
-              <input type="text" name="numerodesocio"  id="numerodesocio" placeholder="Indique su N° de socio"/>
-            </p>
-            <p>
-                Nombre
-                <input type="text" name="nombre" id="nombre" placeholder="Indique su nombre" />
-            </p>
-            <p>
-                Apellido
-                <input type="text" name="apellido" id="apellido" placeholder="Indique su apellido" />
-            </p>
-            <p>
-                DNI
-                <input type="number" name="dni" id="dni" placeholder="Indique su DNI" />
-            </p>
-            <p>
-                Edad
-                <input type="number" name="edad" id="edad" placeholder="Indique su edad" />
-            </p>
-            <br>
+<body class="index3" >
+    <div>
+        <form id="formularioboca" >
+        <h1>BOLETERIA ONLINE</h1>
+        <img id="logo" src="imagenes/escudo_bokita.png" >
+            <p> N° de socio <input type="text" name="numerodesocio" id="numerodesocio" placeholder="Indique su N° de socio" /></p>
+            <p>Nombre <input type="text" name="nombre" id="nombre" placeholder="Indique su nombre" /></p>
+            <p>Apellido <input type="text" name="apellido" id="apellido" placeholder="Indique su apellido" /></p>
+            <p>DNI <input type="number" name="dni" id="dni" placeholder="Indique su DNI" /></p>
+            <p>Edad <input type="number" name="edad" id="edad" placeholder="Indique su edad" /></p>
             <p class="sexo-linea">
                 Sexo: 
-                <input value="masculino"  type="radio" name="sexo"  /> Masculino 
-                <input value="femenino" type="radio" name="sexo"  /> Femenino
+                <input value="masculino" type="radio" name="sexo" /> Masculino 
+                <input value="femenino" type="radio" name="sexo" /> Femenino
             </p>
-            <br>
-            
-            <p>
-                Tipo de Entrada:
+            <p>Tipo de Entrada:
                 <select name="tipo_entrada" id="tipo_entrada">
                     <option value="popular">Popular</option>
                     <option value="platea">Platea</option>
                     <option value="vip">VIP</option>
                 </select>
             </p>
-            <p>
-                Fecha del Partido:
-                <input type="date" name="fecha_partido" id="fecha_partido" />
-            </p>
-
-          </form>
-          <button onclick="window.location.href='index4.html'">Comprar</button>
-          <p id="resultado"></p>
+            <p>Fecha del Partido: <input type="date" name="fecha_partido" id="fecha_partido" /></p>
+       
+        <button onclick="window.location.href='index4.html'">Comprar</button>
+        
+    </form>
     </div>
 </body>
 </html>

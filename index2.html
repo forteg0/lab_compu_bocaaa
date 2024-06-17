@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venta de Entradas</title>
+    <title>ingreso</title>
     <link rel="stylesheet" href="style.css">
     <script src="./codigo.js"></script>
 </head>
-<body>
-    
-<div class="div1">
+<body class="index2">
+    <div>
+        <form id="ingreso">
+            <h1>COMPRA DE ENTRADAS</h1>
+                <p>Numero de socio: <input type="text" name="nombre" id="num_socio" placeholder="N° de socio"></p>
+                <p>Contraseña: <input type="password" name="clave" id="clave" placeholder="******"></p>
+            <button onclick="validar()">ENTRAR</button>
+            <button onclick="limpiar()">BORRAR</button>
+        
+        </form>
 
-
-
-<h1>COMPRA DE ENTRADAS</h1>
-
-<form>
-
-<p>numero de socio: <input type="text" name="nombre" id="num_socio" placeholder="num_socio"></p>
-<p>contraseña: <input type="password" name="clave" id="clave" placeholder="******"></p>
-
-
-</form>
-
-
-<button onclick="validar()">ENTRAR</button>
-<button onclick="limpiar()">BORRAR</button>
-
-
-
-</div>
-
-
-
-
+    </div>
 </body>
+
 </html>

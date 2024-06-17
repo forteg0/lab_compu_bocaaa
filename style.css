@@ -1,238 +1,74 @@
-h1 {
-  color: rgb(17, 15, 15);
-  text-shadow: 2px 3px 3px white;
-}
-
-
-body{
-
-
-background-color: rgb(7, 13, 99);
-
-
-}
-
-#lista {
+.index2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 20px;
   text-align: center;
-  font-size: 25px;
-  color: black;
-  background-color: white;
-  list-style-type: none;
-
-  /*gdshfsgfsdsdjhg*/
+  background-image: url('/imagenes/imagen_login.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  justify-content: center;
+  align-items: center;
 }
-
-.formulario1 {
-  text-align: center;
-  background-color: blue;
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.titulo2 {
-  text-align: center;
-  text-shadow: 2px 2px 3px black;
+#ingreso
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-.h1e{
-
-color:aqua;
-
-}
-
-
-
-
-.div1{
-background-image: url(/imagenes/imagen_login.jpg);
-width: 100%;
-height: 480px;
-text-align: center;
-font-size: 30px;
-color:white;
-padding-top: 150px;
-background-repeat: no-repeat;
-background-size: cover;
-text-shadow: 2px 2px 5px black;
-
-
-
-
-}
-
-.div2{
-
-border: solid black;
-display: inline-table;
-color:white;
-width: 450px;
-height: 600px;
-text-align: center;
-background-image: url(/imagenes/inter.jpg);
-font-size: 25px;
-text-shadow: 2px 2px 5px black;
-background-size: cover;
-
-
-
-
-
-
-}
-
-#n1,#n2{
-
-width: 50px;
-
-
-}
-/* Estilos generales */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #00008B; /* Azul oscuro */
-  color: #FFD700; /* Dorado */
-  text-align: center;
-  margin: 0;
-  padding: 3px;
-  background-image: url('/imagenes/escudo_bokita.png');
-  background-repeat: repeat; /* Repetir la imagen en mosaico */
-  background-size: 100px 110px; /* Tamaño reducido de la imagen de fondo */
-}
-
-/* Contenedor principal */
-.container {
-  margin: 50px auto;
-  width: 50%;
-  background-color: rgba(0, 0, 0, 0.8); /* Gris oscuro con transparencia */
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #000000;
-}
-
-/* Títulos */
-h1 {
+.index3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ececec;
   color: #FFD700;
-  text-shadow: 2px 3px 3px #00008B;
+  padding: 10px;
+  background-image: url('/imagenes/escudo_bokita.png');
+  background-repeat: repeat; 
+  background-size: 100px 110px; 
+  display: flex;
+  justify-content: center;
 }
-
-/* Imágenes */
-img {
-  max-width: 100px; /* Tamaño reducido de la imagen */
+#formularioboca {
+  background-color: black;
+  width: 1000px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:center;
+  max-width: 1000px;
+}
+#logo {
+  max-width: 100px; 
   height: auto;
   margin-bottom: 25px;
+  
+}
+.sexo-linea {
+  display: flex;
 }
 
-/* Formularios */
-form p {
-  margin: 5px 0;
-}
+
 
 input, select {
   padding: 8px;
-  margin: 8px 0;
-  width: 100%;
-  border: 1px solid #00008B; /* Azul oscuro */
-  border-radius: 10px;
-  box-sizing: border-box;
+  width: 60%;  
 }
 
-/* Botones */
 button {
-  background-color: #FFD700; /* Dorado */
-  color: #00008B; /* Azul oscuro */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-button:hover {
-  background-color: #DAA520; /* Dorado oscuro */
-}
-
-/* Estilo para el resultado */
-#resultado {
-  margin-top: 20px;
-  font-size: 1.2em;
-  color: #00008B; /* Azul oscuro */
-}
-
-/* Estilo para radio buttons */
-input[type="radio"] {
-  margin-left: 10px;
-}
-
-/* Estilo personalizado */
-#lista {
+  background-color: #FFD700; 
+  color: #00008B; 
+  padding: 5px 21px;
+  border-radius: 2px;
+  height: 28px;
+  width: auto;
   text-align: center;
-  font-size: 25px;
-  color: black;
-  background-color: white;
-  list-style-type: none;
+  
+
 }
 
-.formulario1 {
-  text-align: center;
-  background-color: blue;
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-}
 
-.titulo2 {
-  text-align: center;
-  text-shadow: 2px 2px 3px black;
-}
 
-.h1e {
-  color: aqua;
-}
 
-#n1, #n2 {
-  width: 50px;
-}
-
-.formularioboca {
-  background-image: url('/imagenes/escudo_bokita.png');
-  background-repeat: repeat; /* Repetir la imagen en mosaico */
-  background-size: 150px 150px; /* Ajustar el tamaño de la imagen de fondo */
-}
-
-.h1boca {
-  width: px;
-  height: 10px;
-}
-
-/* Flexbox para el campo sexo */
-.sexo-linea {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0;
-}
-
-.sexo-linea input[type="radio"] {
-  margin: 0 10px;
-}
-
-/* Estilos para las butacas */
-.seat {
-  width: 50px;
-  height: 50px;
-  background-color: #FFD700; /* Dorado */
-  border: 1px solid #00008B; /* Azul oscuro */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: black; /* Color del texto dentro de los cuadrantes */
-}
-
-.seat.available {
-  background-color: #90EE90; /* Verde claro para disponibles */
-}
-
-.seat.occupied {
-  background-color: #FF6347; /* Rojo tomate para ocupadas */
-}
