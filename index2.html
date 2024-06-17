@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ingreso</title>
+    <title>Ingreso</title>
     <link rel="stylesheet" href="style.css">
     <script src="./codigo.js"></script>
 </head>
 <body class="index2">
     <div>
-        <form id="ingreso">
+        <form id="ingreso" onsubmit="return validar(event)">
             <h1>COMPRA DE ENTRADAS</h1>
-                <p>Numero de socio: <input type="text" name="nombre" id="num_socio" placeholder="N° de socio"></p>
-                <p>Contraseña: <input type="password" name="clave" id="clave" placeholder="******"></p>
-            <button onclick="validar()">ENTRAR</button>
-            <button onclick="limpiar()">BORRAR</button>
-        
+            <p>Numero de socio: <input type="text" name="nombre" id="num_socio" placeholder="N° de socio"></p>
+            <p>Contraseña: <input type="password" name="clave" id="clave" placeholder="******"></p>
+            <button type="submit">ENTRAR</button>
+            <button type="button" onclick="limpiar()">BORRAR</button>
         </form>
-
     </div>
 </body>
-
 </html>

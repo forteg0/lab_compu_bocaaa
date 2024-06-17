@@ -1,73 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Butacas Disponibles - Boca Juniors</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-        .stadium {
-            display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            gap: 10px;
-            max-width: 800px;
-            margin: 50px auto;
-        }
-        .seat {
-            width: 50px;
-            height: 50px;
-            background-color: #FFD700; /* Dorado */
-            border: 1px solid #00008B; /* Azul oscuro */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-        .seat.available {
-            background-color: #90EE90; /* Verde claro para disponibles */
-        }
-        .seat.occupied {
-            background-color: #FF6347; /* Rojo tomate para ocupadas */
-        }
-        .legend {
-            max-width: 800px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-around;
-        }
-        .legend div {
-            display: flex;
-            align-items: center;
-        }
-        .legend div span {
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            margin-right: 10px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar Entrada Boca Juniors</title>
+    <script src="./codigo.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Seleccione sus Butacas</h1>
-        <div class="legend">
-            <div><span class="seat available"></span> Disponible</div>
-            <div><span class="seat occupied"></span> Ocupada</div>
-        </div>
-        <div class="stadium">
-            <!-- Generar una serie de butacas -->
-            <div class="seat available">1</div>
-            <div class="seat occupied">2</div>
-            <div class="seat available">3</div>
-            <div class="seat available">4</div>
-            <div class="seat occupied">5</div>
-            <div class="seat available">6</div>
-            <div class="seat available">7</div>
-            <div class="seat occupied">8</div>
-            <div class="seat available">9</div>
-            <div class="seat available">10</div>
-            <!-- Repetir este bloque para todas las butacas necesarias -->
-        </div>
+<body class="index4">
+    <div>
+        <form id="pagoEntrada">
+            <h1>PAGAR ENTRADA</h1>
+            <p>Medio de Pago:
+                <select name="medio_pago" id="medio_pago">
+                    <option value="tarjeta_credito">Tarjeta de Crédito</option>
+                    <option value="tarjeta_debito">Tarjeta de Débito</option>
+                    <option value="transferencia">Transferencia Bancaria</option>
+                    <option value="efectivo">Efectivo</option>
+                </select>
+            </p>
+            <p>Cuotas:
+                <select name="cuotas" id="cuotas">
+                    <option value="1">1 cuota</option>
+                    <option value="3">3 cuotas</option>
+                    <option value="6">6 cuotas</option>
+                    <option value="12">12 cuotas</option>
+                </select>
+            </p>
+            <p class="Entrada" >Retiro de la Entrada:
+                <input value="boleteria" type="radio" name="retiro" id="retiro_boleteria" /> Por Boletería
+                <input value="imprimir" type="radio" name="retiro" id="retiro_imprimir" /> Imprimir en Casa
+            </p>
+            <button type="submit" onclick="procesarPago()">Pagar</button>
+        </form>
     </div>
 </body>
 </html>

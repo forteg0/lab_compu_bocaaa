@@ -50,7 +50,35 @@
   display: flex;
 }
 
+.index4{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ececec;
+  color: #FFD700;
+  padding: 10px;
+  background-image: url('/imagenes/escudo_bokita.png');
+  background-repeat: repeat; 
+  background-size: 100px 110px; 
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  
 
+}
+#pagoEntrada{
+    background-color: black;
+  width: 1000px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:center;
+  max-width: 1000px;
+}
+.Entrada{
+  display: flex;
+  font-size: 10px;
+}
 
 input, select {
   padding: 8px;
